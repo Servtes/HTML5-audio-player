@@ -1,0 +1,18 @@
+<!DOCTIPE html>
+<html lang="es">
+<head>
+<script language="javascript" type="text/javascript" src="funcionesReproductor.js">
+</script>
+</head>
+<body>
+	<div id="reproductorBox">
+	</div>
+	<select  id = "selectTrack" multiple onchange="cambiarTrack(this.options[this.selectedIndex]);">
+		<option path="E:\Musica\El cuarteto de Nos\Invierno del 92 - El Cuarteto de Nos.mp3">Invierno del 92</option>
+		<option path="E:\Musica\El cuarteto de Nos\El día que Artigas se emborrachó.mp3">El dia que artigas se emborachó</option>
+		<option path="E:\Musica\El cuarteto de Nos\El Cuarteto De Nos - Nada Es Gratis En La Vida.mp3">Nada es gratis en la vida</option>
+		<option path="E:\Musica\El cuarteto de Nos\el cuarteto de nos - miguel gritar(7).mp3">Miguel Gritar</option>
+	</select>
+	<script>cargarReproductor();</script>
+</body>
+</html>
